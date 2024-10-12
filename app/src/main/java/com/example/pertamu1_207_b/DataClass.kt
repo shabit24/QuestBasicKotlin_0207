@@ -10,10 +10,11 @@ fun main(){
     println(data)
 
     var data2 = DataClass(2,"makan@gmail.com")
-    println(data =  data2) //false
+    println(data ==  data2) //false
 
     val data3 = data.copy()
     println(data3)
 
-
+  val data4 = data.copy(email = "sahar@gmail.com")
+    println(data4)
 }
