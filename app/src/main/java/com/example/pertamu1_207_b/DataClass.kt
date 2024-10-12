@@ -1,7 +1,7 @@
 package com.example.text
 //data class
 data class DataClass(
-    val id: int,
+    val id: Int,
     var email: String
 )
 
